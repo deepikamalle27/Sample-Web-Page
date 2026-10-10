@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Header=()=>{
     return(
@@ -12,10 +13,10 @@ const Header=()=>{
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div id="navbar-nav">
-                        <a class="nav-link " aria-current="page" href="#">Landing Page</a>
-                        <a class="nav-link" href="#">Product Details Page</a>
-                        <a class="nav-link" href="#">Shop</a>
-                        <a class="nav-link" href="#">About</a>
+                        <Link to="/" class="nav-link " aria-current="page" >Home Page</Link>
+                        <Link to="/Article" class="nav-link " aria-current="page" >Article</Link>
+                        <Link to="/Shop" class="nav-link" >Shop</Link>
+                        <Link to="/ProductDetailPage" class="nav-link"> Product Details Page</Link>
                     </div>
                     </div>
                 </div>
