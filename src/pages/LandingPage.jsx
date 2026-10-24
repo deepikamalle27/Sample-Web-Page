@@ -16,6 +16,7 @@ const LandingPage=()=>{
             <div id="image_section">
                 <img id="image" src={orange_pic} alt="orange_pic" />
             </div>
+            <h1 id="section_heading">Fruits</h1>
             <div id="card_section">
                 <div class="cards_lists">
                 <div class="card-group">
@@ -27,7 +28,6 @@ const LandingPage=()=>{
                     <p class="card-text"><small class="fg-2">Last updated 3 mins ago</small></p>
                     </div>
                 </div>
-                <h1 id="section_heading">Fruits</h1>
                 <div class="card">
                     <img src={Dryfruite} class="card-img-top" alt="..." id="dry_fruite"/>
                     <div class="card-body">

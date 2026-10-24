@@ -36,13 +36,15 @@ body{
 .nav-link:hover{
     color: blue;
 }
+/* Home page */
 #heading_section{
     width: 600px;
     height: 200px;
     /* background-color: red; */
-    position: relative;
-    left: 30px;
-    top: 40px;
+    /* position: relative; */
+    /* left: 30px;
+    top: 40px; */
+    margin: 35px;
 }
 #title_section{
     font-size: 40px;
@@ -65,9 +67,10 @@ body{
     width: 1280px;
     height: 550px;
     /* background-color: lavenderblush; */
-    position: relative;
-    top: 100px;
-    left: 120px;
+    /* position: relative; */
+    /* top: 100px;
+    left: 120px; */
+    margin: 30px 120px;
 }
 #image{
     width: 100%;
@@ -75,18 +78,14 @@ body{
     border-radius: 40px;
 }
 #section_heading{
-    position: relative;
-    bottom: 60px;
-    right: 400px;
+    margin: 10px 35px;
 }
 /* card section */
 #card_section{
     width: 1350px;
     height: 400px;
     /* background-color: red; */
-    position: relative;
-    top: 200px;
-    left: 70px;
+    margin: 30px 65px;
     border-radius: 30px;
     padding: 20px;
 }
@@ -138,7 +137,7 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 200px;
+    /* margin-top: 200px; */
     border-radius: 10px 10px 0px 0px;
 }
 .menu{
@@ -291,12 +290,10 @@ body{
     align-items: center;
     gap: 20px;
     padding: 15px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
+    border: 1px solid #ddd;    border-radius: 10px;
     background-color: lightgray;
     cursor: pointer;
 }
-
 .shop_card_img {
     width: 250px;
     height: 180px;
@@ -307,6 +304,228 @@ body{
 #shop_cards .card-body {
     flex: 1;
 }
+/* second_heading */
+
+#shop_second_heading{
+    margin: 30px;
+}
+
+/* card and price */
+
+#price_details_section {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    gap: 15px;
+    padding: 10px 40px 40px;
+    margin-left: 10%;
+    width: 80%;
+    box-sizing: border-box;
+    align-items: start;
+}
+
+/* Large left card */
+.featured_card {
+    width: 100%;
+    min-width: 0;
+    background: white;
+    overflow: hidden;
+}
+
+.featured_img {
+    width: 100%;
+    height: 368px;
+    object-fit: cover;
+    display: block;
+    border-radius: 5px;
+}
+
+/* Right-side cards */
+#right_product_cards {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    min-width: 0;
+}
+
+.small_product_card {
+    width: 100%;
+    min-width: 0;
+    background: white;
+    overflow: hidden;
+}
+
+.small_product_img {
+    width: 100%;
+    height: 145px;
+    object-fit: cover;
+    display: block;
+    border-radius: 10px;
+}
+
+#price_details_section .card-body {
+    padding: 12px 0;
+}
+
+#price_details_section .card-title {
+    font-size: 14px;
+    margin: 0 0 5px;
+    font-weight: 400;
+}
+
+#price_details_section .card-text {
+    font-size: 12px;
+    color: gray;
+    margin: 0 0 5px;
+}
+
+#price_details_section .card-price {
+    font-size: 12px;
+    margin: 0;
+}
+
+   /* PRODUCT DETAILS SECTION */
+
+#product_details_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    width: 90%;
+    max-width: 1400px;
+    margin: 70px auto;
+}
+
+/* Product Image */
+
+#product_details_img {
+    flex: 1;
+    min-width: 0;
+    margin: 0;
+}
+
+#img_beetroot {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+/* Product Information Box */
+
+#product_details_para {
+    flex: 0 0 450px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 3px dotted black;
+    border-radius: 10px;
+}
+
+/* Product Name */
+
+#para1 {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Product Subheading */
+
+#para2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+/* Product Price */
+
+#para3 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Product Description */
+
+#para4 {
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Add to Cart Button */
+
+#product_button {
+    width: 100%;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+#product_button:hover {
+    background-color: #333;
+}
+
+/* Additional Details */
+
+#para5 {
+    font-size: 14px;
+    color: #555;
+    margin-top: 20px;
+    margin-bottom: 0;
+    line-height: 1.5;
+}
 
 
+/* Related Products Section */
+#product_details_cards {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    /* background-color: red; */
+}
 
+/* Four cards in one row */
+#product_details_cards .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin: 0;
+    gap: 20px;
+}
+
+/* Each card column */
+#product_details_cards .col {
+    flex: 1 1 0;
+    min-width: 0;
+    padding: 0;
+}
+
+/* Card */
+#product_details_cards .card {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    transition: transform 0.3s ease;
+}
+
+#product_details_cards .card:hover {
+    transform: translateY(-5px);
+}
+
+/* Card images */
+#product_details_cards .card-img-top {
+    display: block;
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    object-fit: cover;
+}
