@@ -1,9 +1,9 @@
 import React from "react";
-import Beetrate from "../assets/Images/Beetrate.jpg";
-import Pappy from "../assets/Images/Pappy.jpg";
-import watermelon from "../assets/Images/watermelon.jpg";
-import Apple from "../assets/Images/Apple.jpg";
-import orange_pic from "../assets/Images/orange_pic.jpg";
+import Beetrate from "../assets/Images/Beetrate.webp";
+import Pappy from "../assets/Images/Pappy.webp";
+import watermelon from "../assets/Images/watermelon.webp";
+import Apple from "../assets/Images/Apple.webp";
+import orange_pic from "../assets/Images/orange_pic.webp";
 
 const ProductDetailPage = () => {
     return (

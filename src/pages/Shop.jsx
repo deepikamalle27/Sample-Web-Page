@@ -1,8 +1,8 @@
 import React from "react";
-import Background_clip from "../assets/Images/Background_clip.jpg"
-import Pappy from "../assets/Images/Pappy.jpg"
-import watermelon from "../assets/Images/watermelon.jpg"
-import Apple from "../assets/Images/Apple.jpg"
+import Background_clip from "../assets/Images/Background_clip.webp"
+import Pappy from "../assets/Images/Pappy.webp"
+import watermelon from "../assets/Images/watermelon.webp"
+import Apple from "../assets/Images/Apple.webp"
 
 const Shop=()=>{
     return(

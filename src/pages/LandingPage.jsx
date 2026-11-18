@@ -1,8 +1,8 @@
 import React from "react";
-import orange_pic from "../assets/Images/orange_pic.jpg";
-import wildfruite from "../assets/Images/wildfruite.jpg";
-import fruite from "../assets/Images/fruite.jpg";
-import Dryfruite from "../assets/Images/Dryfruite.jpg";
+import orange_pic from "../assets/Images/orange_pic.webp";
+import wildfruite from "../assets/Images/wildfruite.webp";
+import fruite from "../assets/Images/fruite.webp";
+import Dryfruite from "../assets/Images/Dryfruite.webp";
 
 const LandingPage=()=>{
     return(
@@ -18,30 +18,30 @@ const LandingPage=()=>{
             </div>
             <h1 id="section_heading">Fruits</h1>
             <div id="card_section">
-                <div class="cards_lists">
-                <div class="card-group">
-                <div class="card">
-                    <img src={fruite} class="card-img-top" alt="..." id="fruite"/>
-                    <div class="card-body">
-                    <h4 class="card-title">Fresh Fruits</h4>
-                    <p class="card-text">Fresh fruits are rich in vitamins, minerals, and antioxidants that keep your body healthy and energized.</p>
-                    <p class="card-text"><small class="fg-2">Last updated 3 mins ago</small></p>
+                <div className="cards_lists">
+                <div className="card-group">
+                <div className="card">
+                    <img src={fruite} className="card-img-top" alt="..." id="fruite"/>
+                    <div className="card-body">
+                    <h4 className="card-title">Fresh Fruits</h4>
+                    <p className="card-text">Fresh fruits are rich in vitamins, minerals, and antioxidants that keep your body healthy and energized.</p>
+                    <p className="card-text"><small className="fg-2">Last updated 3 mins ago</small></p>
                     </div>
                 </div>
-                <div class="card">
-                    <img src={Dryfruite} class="card-img-top" alt="..." id="dry_fruite"/>
-                    <div class="card-body">
-                    <h4 class="card-title">Dry Fruits</h4>
-                    <p class="card-text">Dry fruits are rich in nutrients, fiber, and healthy fats that support overall health.</p>
-                    <p class="card-text"><small class="fg-2">Last updated 3 mins ago</small></p>
+                <div className="card">
+                    <img src={Dryfruite} className="card-img-top" alt="..." id="dry_fruite"/>
+                    <div className="card-body">
+                    <h4 className="card-title">Dry Fruits</h4>
+                    <p className="card-text">Dry fruits are rich in nutrients, fiber, and healthy fats that support overall health.</p>
+                    <p className="card-text"><small className="fg-2">Last updated 3 mins ago</small></p>
                     </div>
                 </div>
-                <div class="card">
-                    <img src={wildfruite} class="card-img-top" alt="..." id="wild_fruite"/>
-                    <div class="card-body">
-                        <h4 class="card-title">Wild Fruits</h4>
-                        <p class="card-text">Wild fruits are packed with natural vitamins and antioxidants that help nourish and protect your body.</p>
-                        <p class="card-text"><small class="fg-2">Last updated 3 mins ago</small></p>
+                <div className="card">
+                    <img src={wildfruite} className="card-img-top" alt="..." id="wild_fruite"/>
+                    <div className="card-body">
+                        <h4 className="card-title">Wild Fruits</h4>
+                        <p className="card-text">Wild fruits are packed with natural vitamins and antioxidants that help nourish and protect your body.</p>
+                        <p className="card-text"><small className="fg-2">Last updated 3 mins ago</small></p>
                     </div>
                     </div>
                     </div>

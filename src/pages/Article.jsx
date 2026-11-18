@@ -1,10 +1,10 @@
 import React from "react";
-import Breakfast from "../assets/Images/Breakfast.jpg"
-import coffee from "../assets/Images/coffee.jpg"
-import vegbreakfast from "../assets/Images/vegbreakfast.jpg"
-import salad from "../assets/Images/salad.jpg"
-import kimchi from "../assets/Images/kimchi.jpg"
-import pasta from "../assets/Images/pasta.jpg"
+import Breakfast from "../assets/Images/Breakfast.webp"
+import coffee from "../assets/Images/coffee.webp"
+import vegbreakfast from "../assets/Images/vegbreakfast.webp"
+import salad from "../assets/Images/salad.webp"
+import kimchi from "../assets/Images/kimchi.webp"
+import pasta from "../assets/Images/pasta.webp"
 
 const Article=()=>{
     return(
@@ -30,24 +30,24 @@ const Article=()=>{
             </div>
             <h1 id="related_post_section">Related articles or posts</h1>
             <div id="article_img_cards">
-                <div class="contains-inline">
-                    <div class="card-group">
-                        <div class="card">
-                            <img src={salad} class="card-img-top" alt="salad"/>
-                            <div class="card-body">
-                            <h4 class="card-title">Salad</h4>
+                <div className="contains-inline">
+                    <div className="card-group">
+                        <div className="card">
+                            <img src={salad} className="card-img-top" alt="salad"/>
+                            <div className="card-body">
+                            <h4 className="card-title">Salad</h4>
                             </div>
                         </div>
-                        <div class="card">
-                            <img src={kimchi} class="card-img-top" alt="kimchi"/>
-                            <div class="card-body">
-                            <h4 class="card-title">Kimchi</h4>
+                        <div className="card">
+                            <img src={kimchi} className="card-img-top" alt="kimchi"/>
+                            <div className="card-body">
+                            <h4 className="card-title">Kimchi</h4>
                         </div>
                     </div>
-                        <div class="card">
-                            <img src={pasta} class="card-img-top" alt="pasta"/>
-                            <div class="card-body">
-                            <h4 class="card-title">Pasta</h4>
+                        <div className="card">
+                            <img src={pasta} className="card-img-top" alt="pasta"/>
+                            <div className="card-body">
+                            <h4 className="card-title">Pasta</h4>
                         </div>
                     </div>
                     </div>
